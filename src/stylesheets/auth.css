@@ -1,0 +1,215 @@
+form {
+  padding: 20px 25px;
+  width: 500px;
+  height: auto;
+  box-sizing: border-box;
+  position: relative;
+  display: block;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  border-radius: 5%;
+}
+label{
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+}
+button{
+  border-radius: 5px;
+  background-color: grey;
+  color: white;
+}
+input, select {
+  width: 78%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input:hover{
+  background-color: rgb(223, 222, 222);
+}
+input[type=submit] {
+  width: 78%;
+  background-color: rgb(7, 71, 7);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  border-radius: 15px
+}
+input[type=submit]:hover {
+  background-color: rgb(9, 41, 9);
+}
+.align_center
+{
+  text-align: center;
+  margin-right: 30%;
+}
+.list_box{
+  font-style: oblique;
+  display: inline-block;
+  box-sizing: border-box;
+  border: 5px solid #062c96;
+  padding: 20px 25px;
+  width: 548px;
+}
+.comment_list{
+  font-style: oblique;
+  display: inline-block;
+  box-sizing: border-box;
+  border: 5px solid #062c96;
+  padding: 20px 25px;
+  width: 549px;
+}
+.users_list{
+  font-style: oblique;
+  display: inline-block;
+  box-sizing: border-box;
+  border: 5px solid rgb(197, 199, 199);
+  background-color: rgb(223, 222, 222);
+  padding: 20px 25px;
+  width: 500px;
+}
+.CampaignList-container
+{
+  width: 600px;  
+  border-radius: 12px;
+  float: right;
+  margin-right: 10%;
+  margin-top: 10%;
+}
+.CampaignList-form-container{
+  width: 600px;  
+  border-radius: 12px;
+  margin-top: 9%;
+  margin-left: 15%;
+  position: fixed;
+}
+.container{
+  font-style: oblique;
+  display: inline-block;
+  margin-left: 40%;
+  margin-top: 50px;
+}
+.signupform{
+  font-style: oblique;
+  display: inline-block;
+  margin-left: 35%;
+  margin-top: 100px;
+}
+.error{
+  width: 600px;  
+  border-radius: 12px;
+  margin-top: 5%;
+  margin-left: 5%;
+  position: fixed;
+}
+.auth_row {
+  display: flex;
+}
+.auth_column {
+  flex: 50%;
+  padding: 20px;
+  height: 100px;
+  margin-bottom: 15%;  
+}
+
+textarea{
+  margin: 0px; width: 350px; height: 99px;
+  padding: 12px 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+textarea:hover{
+  background-color: rgb(223, 222, 222);
+}
+.align-title{
+  text-align: center;
+  font-style: oblique;
+  display: inline-block;
+  box-sizing: border-box;
+  border: 5px solid #062c96; 
+  border-bottom: double;
+  width:548px;
+  height: 80px;
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+  background-color: rgb(206, 201, 201);
+}
+.right{
+  float: right;
+  margin-right: 20px;
+  background-color: white;
+  color: black;
+  
+  box-sizing: border-box;
+  border: 5px solid pink;
+  border-radius: 50%;
+  padding-top: 10px;
+  padding-left: 3px;
+  font-weight: bold;
+}
+.login{
+  height: 65px;
+  width: 65px;
+  float: right;
+  margin-right: 20px;
+  background-color: white;
+  color: black;
+  
+  box-sizing: border-box;
+  border: 5px solid#062c96; 
+  border-radius: 50%;
+  padding-top: 15px;
+  padding-left: 3px;
+  font-weight: bold;
+}
+.logout{
+  height: 60px;
+  width: 60px;
+  float: right;
+  margin-right: 20px;
+  background-color: white;
+  color: black;
+  
+  box-sizing: border-box;
+  border: 5px solid #062c96; 
+  border-radius: 50%;
+  padding-top: 6px;
+  padding-left: 9px;
+  font-weight: bold;
+}
+.left{
+  margin-left: 100px;
+}
+
+.align{
+  margin: 100px 100px;
+}
+.btns-distance{
+  
+  float: right;
+  font-size: 15px; 
+  height: 25px;
+}
+.ellipse{
+  white-space: nowrap; 
+  width: 350px; 
+  overflow: hidden;
+  text-overflow: ellipsis; 
+}
+.inline{
+  display: inline;
+  margin-right: 10px;
+}
+.Campaign_detail{
+  margin-top: 10%;
+}
