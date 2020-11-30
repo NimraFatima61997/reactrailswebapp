@@ -25,7 +25,7 @@ export default class CampaignsList extends React.Component{
   componentDidMount(){
     $.ajax({
       type: "GET",
-      url: '/campaigns',
+      url: 'https://reactrailsapi.herokuapp.com/campaigns',
       dataType: "JSON",
       headers: JSON.parse(sessionStorage.user)
     }).done((data) => {
